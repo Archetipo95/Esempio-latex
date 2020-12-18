@@ -23,7 +23,7 @@ jobs:
           name: my_doc
           #    pdf.   «*», «**»
           #   <working_directory>/<jobname>.pdf
-          path: latex_sources/my_doc.pdf
+          path: my_doc.pdf
 
   deploy:
     runs-on: ubuntu-latest
